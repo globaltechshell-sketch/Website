@@ -30,7 +30,7 @@ export default function Services() {
                 >
                     <motion.div variants={itemVariants} className="card landscape-card">
                         <div className="landscape-card-img">
-                            <img src="/Website/web_development.png" alt="Web Development" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
+                            <img src="/web_development.png" alt="Web Development" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
                             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to right, transparent, var(--bg-secondary))' }}></div>
                         </div>
                         <div className="landscape-card-content">
@@ -45,14 +45,14 @@ export default function Services() {
                             <p className="feature-desc" style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>Engage your audience with cross-platform and native mobile apps for iOS and Android. Our applications are built for speed, offline capabilities, and deep system integration.</p>
                         </div>
                         <div className="landscape-card-img" style={{ order: typeof window !== 'undefined' && window.innerWidth < 768 ? 1 : 2 }}>
-                            <img src="/Website/app_development.png" alt="App Development" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
+                            <img src="/app_development.png" alt="App Development" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
                             <div style={{ position: 'absolute', top: 0, right: 0, width: '100%', height: '100%', background: 'linear-gradient(to left, transparent, var(--bg-secondary))' }}></div>
                         </div>
                     </motion.div>
 
                     <motion.div variants={itemVariants} className="card landscape-card">
                         <div className="landscape-card-img">
-                            <img src="/Website/ui_ux_design.png" alt="UI/UX Designing" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
+                            <img src="/ui_ux_design.png" alt="UI/UX Designing" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
                             <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to right, transparent, var(--bg-secondary))' }}></div>
                         </div>
                         <div className="landscape-card-content">
@@ -67,7 +67,7 @@ export default function Services() {
                             <p className="feature-desc" style={{ fontSize: '1.05rem', lineHeight: '1.8' }}>We help small and medium organizations promote and market their business. From social media campaigns to deep SEO and analytics tracing, we scale your online presence predictably.</p>
                         </div>
                         <div className="landscape-card-img" style={{ order: typeof window !== 'undefined' && window.innerWidth < 768 ? 1 : 2 }}>
-                            <img src="/Website/digital_marketing.png" alt="Digital Marketing" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
+                            <img src="/digital_marketing.png" alt="Digital Marketing" style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute' }} />
                             <div style={{ position: 'absolute', top: 0, right: 0, width: '100%', height: '100%', background: 'linear-gradient(to left, transparent, var(--bg-secondary))' }}></div>
                         </div>
                     </motion.div>
