@@ -1,7 +1,8 @@
 {
   "homepage": "https://github.com/globaltechshell-sketch/Website",
-  "name": "temp-app",
-  "version": "0.1.0",
+  "name": "globaltechshell-website",
+  "version": "1.0.0",
+  "description": "GlobalTechShell - AI-Integrated Technology Solutions Website",
   "private": true,
   "scripts": {
     "dev": "next dev",
