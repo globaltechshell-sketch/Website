@@ -1,4 +1,5 @@
 {
+  "homepage": "https://github.com/globaltechshell-sketch/Website",
   "name": "temp-app",
   "version": "0.1.0",
   "private": true,
@@ -6,7 +7,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "axios": "^1.13.6",
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "eslint": "^9",
-    "eslint-config-next": "16.1.6"
+    "eslint-config-next": "16.1.6",
+    "gh-pages": "^6.3.0"
   }
 }

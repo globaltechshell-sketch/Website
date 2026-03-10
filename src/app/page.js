@@ -23,10 +23,10 @@ export default function Home() {
       <section className="hero" style={{ position: 'relative' }}>
         {/* Background Image Carousel */}
         <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', zIndex: 0, overflow: 'hidden' }}>
-          <img src="/web_development.png" alt="Web Development" className="hero-carousel-img" style={{ animationDelay: '0s' }} />
-          <img src="/app_development.png" alt="App Development" className="hero-carousel-img" style={{ animationDelay: '4s' }} />
-          <img src="/ui_ux_design.png" alt="UI UX Design" className="hero-carousel-img" style={{ animationDelay: '8s' }} />
-          <img src="/digital_marketing.png" alt="Digital Marketing" className="hero-carousel-img" style={{ animationDelay: '12s' }} />
+          <img src="/Website/web_development.png" alt="Web Development" className="hero-carousel-img" style={{ animationDelay: '0s' }} />
+          <img src="/Website/app_development.png" alt="App Development" className="hero-carousel-img" style={{ animationDelay: '4s' }} />
+          <img src="/Website/ui_ux_design.png" alt="UI UX Design" className="hero-carousel-img" style={{ animationDelay: '8s' }} />
+          <img src="/Website/digital_marketing.png" alt="Digital Marketing" className="hero-carousel-img" style={{ animationDelay: '12s' }} />
 
           {/* Gradient Overlays to ensure text readability */}
           <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(to bottom, rgba(2, 6, 23, 0.4) 0%, rgba(2, 6, 23, 1) 100%)', zIndex: 1 }}></div>
